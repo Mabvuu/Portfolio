@@ -1,0 +1,57 @@
+.theme-light {
+  background-color: white;
+  color: black;
+}
+
+.theme-dark {
+  background-color: black;
+  color: white;
+}
+
+.theme-green {
+  background-color: #d4edda; /* Light green */
+  color: #155724; /* Dark green */
+}
+
+.scroll-indicator {
+  position: fixed;
+  top: 50%; /* Center vertically */
+  left: 10px; /* Adjust as needed */
+  transform: translateY(-50%);
+}
+
+.scroll-indicator span {
+  display: block;
+  cursor: pointer;
+  margin: 5px 0;
+  color: gray; /* Or any color that fits your theme */
+}
+
+.scroll-container {
+  display: flex;                    /* Arrange sections horizontally */
+  overflow-x: auto;                /* Enable horizontal scrolling */
+  overflow-y: hidden;              /* Disable vertical scrolling */
+  white-space: nowrap;              /* Prevent line breaks */
+  height: 100vh;                   /* Full viewport height */
+  width: 1400vw;                    /* Full viewport width */
+}
+
+/* 80/20 Layout for other pages */
+.layout {
+  display: flex;                     /* Flexbox for layout */
+  height: 100vh;                    /* Full height */
+}
+
+/* Main content section (80% width) */
+.main-content {
+  width: 80%;                        /* 80% width for main content */
+}
+
+/* Build a Burger section (20% width) */
+.burger-section {
+  width: 20%;                        /* 20% width for the burger builder */
+  background-color: #f8f9fa;        /* Light background for visibility */
+  padding: 20px;                    /* Padding for spacing */
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+

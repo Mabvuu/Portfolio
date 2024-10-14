@@ -1,0 +1,9 @@
+.burger-builder {
+  width: 20%; /* Adjust as necessary */
+  background-color: #f8f9fa; /* Light background for visibility */
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  position: sticky; /* Keep it pinned on the side */
+  top: 0; /* Make it stick to the top */
+  height: 100vh; /* Full height */
+}

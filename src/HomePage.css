@@ -1,0 +1,16 @@
+.home-page {
+  width: 100vw;                       /* Full width for the homepage */
+  height: 100vh;                    /* Full viewport height */
+  background-color: #ff69b4;        /* Sexy pink background */
+  position: relative;
+  overflow-y: hidden;
+}
+
+.home-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the header */
+  color: white;
+  z-index: 1; /* Ensure it’s above other elements */
+}
